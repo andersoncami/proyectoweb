@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Inter";
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.header {
+    height: 80px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px 20px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style: none;
+  
+}
+
+.nav-menu-item {
+    font-size: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 50px;
+
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.nav-menu-link:hover {
+    color: hsl(5, 85%, 63%);
+    transition: 0.5s;
+}
+
+.togglemenu {
+    background: none;
+    border: none;
+    font-size: 30px;
+    
+    display: none;
+    
+}
+
+
+
+
+.contenedor1{
+    
+    border-radius: 10px;
+   
+    height: 60%;
+    
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+ 
+  
+}
+.contimagen{
+    align-items: flex-start;
+    width: auto;
+    height: 60%;
+    flex-grow: 1;
+    
+}
+.imagen1{
+    width: 100%;
+    height: auto;
+   
+}
+
+.contenedor1a{
+height: 40%;
+flex-direction: row;
+
+
+}
+
+.titulo{
+    margin:0;
+      margin-right: auto;
+   
+    width: 50%;
+    font-size: 2rem;
+    font-weight:800;
+    color:hsl(240, 100%, 5%);
+    margin: 1rem 0;
+    
+}
+.parrafo{
+    align-self: justify;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 2rem;
+ 
+    line-height: 1.8;
+    color: hsl(236, 13%, 42%);
+    
+    
+}
+.bonton{
+    background-color: hsl(5, 85%, 63%);
+    color:white;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing:0.2rem;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.contenedor2{
+    background-color: aqua;
+    border-radius: 10px;
+    
+    width: 39%;
+    margin-left: auto;
+    height: 60%;
+    margin-top: 0;
+}
+
+.noticias{
+    align-items: flex-start;
+    width: 100%;
+    background-color: hsl(240, 100%, 5%);
+    
+    padding: 1.25rem 1.25rem 0;
+   
+}
+
+.titulo2{
+    color: hsl(35, 77%, 62%);
+}
+.titulo3{
+    color: #fff;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.parrafo2{
+    line-height: 1.8;
+    color: hsl(236, 13%, 42%);
+
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+
+.flex1{
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+
+}
+
+
+.cards{
+    padding:1.25rem;
+    flex-direction: row;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+
+}
+
+.cards article{
+    display: flex;
+    align-items: center;
+    gap:1.25rem;
+}
+
+.cards article img{
+    width: 150px;
+}
+
+.cards article span{
+    color: hsl(236, 13%, 42%);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 75%;
+}
+
+.cards article span h4{
+    font-size: 1.25rem;
+    color:hsl(240, 100%, 5%);
+    margin: 1rem 0;
+}
+
+
+
+
+
+
+@media (max-width: 500px) 
+{
+
+
+    .header {
+        height: 60px;
+
+
+    }
+
+
+    .logo {
+        width: auto;
+        height: auto;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+
+        margin-right: 20px;
+        background-color: rgb(58, 17, 17);
+        position: fixed;
+        right: 100%;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        overflow-y: auto;
+        
+         transition: left  0.5s;
+    }
+
+        .nav-menu-item {
+            line-height: 70px;
+            font-size: 26px;
+
+
+
+        }
+
+        .togglemenu {
+            cursor: pointer;
+
+            display: block;
+        }
+
+        .nav-menu_visible {
+            right: 0;
+
+
+
+
+
+
+
+        }
+ }

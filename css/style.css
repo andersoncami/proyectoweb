@@ -1,0 +1,116 @@
+.card{
+    width: 80%;
+
+}
+
+.portafolio{
+    background-color: #F1F1F1;
+}
+
+
+.izq{
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    margin-top: 25px;
+    margin-left: 25px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+
+}
+
+.derecha{
+    position: absolute;
+    background-color:#F1F1F1;
+}
+
+.caposu{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+
+    margin-top: 20px;
+    border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+    }
+
+body{
+    background-image: url(../img/fondo.jpg);
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+
+.derecha{
+    position: absolute;
+    padding: 30px;
+    width: 38%;
+    right: 10%;
+    height: 50vh;
+    margin-top: 25px;
+    margin-left: 25px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    border-radius: 25px;
+
+}
+
+.presentacion{
+    position: absolute;
+    background-color: #F1F1F1;
+    right: 10%;
+    left: 48%;
+    top: 70%;
+    bottom: 5%;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: baseline;
+    }
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.glass{
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-right: 50px;
+    width: 88%;
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 25px;
+}

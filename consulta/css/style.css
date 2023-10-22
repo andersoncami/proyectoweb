@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar{
+    position: fixed; /* para que se quede pegado en la pantalla*/
+    z-index: 1;
+    top: 0;
+    left: 5%;
+    right: 5%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  /* Estilo para cada botón */
+  li {
+    float: left;
+  }
+
+  /* Estilo para los enlaces de los botones */
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Estilo para los botones cuando se pasa el cursor sobre ellos */
+  li a:hover {
+    background-color: #111;
+  }
+
+.glass{
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+.card{
+    background: rgba( 255, 255, 255, 0.90 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+.card-center{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.principal{
+    margin-top: 25px;
+}
+
+
+.boton-verde {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+  /*SISTEMA GRID*/
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  /* Column styles */
+  .col {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+  
+  /* Small screen styles */
+  @media (max-width: 600px) {
+    .s1 { width: 8.33333%; }
+    .s2 { width: 16.66667%; }
+    .s3 { width: 25%; }
+    .s4 { width: 33.33333%; }
+    .s5 { width: 41.66667%; }
+    .s6 { width: 50%; }
+    .s7 { width: 58.33333%; }
+    .s8 { width: 66.66667%; }
+    .s9 { width: 75%; }
+    .s10 { width: 83.33333%; }
+    .s11 { width: 91.66667%; }
+    .s12 { width: 100%; }
+  }
+  
+  /* Medium screen styles */
+  @media (min-width: 601px) and (max-width: 992px) {
+    .m1 { width: 8.33333%; }
+    .m2 { width: 16.66667%; }
+    .m3 { width: 25%; }
+    .m4 { width: 33.33333%; }
+    .m5 { width: 41.66667%; }
+    .m6 { width: 50%; }
+    .m7 { width: 58.33333%; }
+    .m8 { width: 66.66667%; }
+    .m9 { width: 75%; }
+    .m10 { width: 83.33333%; }
+    .m11 { width: 91.66667%; }
+    .m12 { width: 100%; }
+  }
+  
+  /* Large screen styles */
+  @media (min-width: 993px) {
+    .l1 { width: 8.33333%; }
+    .l2 { width: 16.66667%; }
+    .l3 { width: 25%; }
+    .l4 { width: 33.33333%; }
+    .l5 { width: 41.66667%; }
+    .l6 { width: 50%; }
+    .l7 { width: 58.33333%; }
+    .l8 { width: 66.66667%; }
+    .l9 { width: 75%; }
+    .l10 { width: 83.33333%; }
+    .l11 { width: 91.66667%; }
+    .l12 { width: 100%; }
+  }
